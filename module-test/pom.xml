@@ -21,7 +21,7 @@
   <parent>
     <groupId>org.objenesis</groupId>
     <artifactId>objenesis-parent</artifactId>
-    <version>3.5-SNAPSHOT</version>
+    <version>3.5</version>
   </parent>
 
   <artifactId>objenesis-module-test</artifactId>
@@ -71,7 +71,7 @@
             <argument>--add-opens</argument>
             <argument>java.base/java.util=org.objenesis</argument>
             <argument>--module-path</argument>
-            <modulepath/>
+            <modulepath />
             <argument>-m</argument>
             <argument>org.mymodule/org.mymodule.App</argument>
           </arguments>
